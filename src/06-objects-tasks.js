@@ -22,6 +22,20 @@
  */
 function Rectangle(/* width, height */) {
   throw new Error('Not implemented');
+  // class Rectangle {
+  //   constructor(width, height) {
+  //     this.height = height;
+  //     this.width = width;
+  //   }
+  //   get area() {
+  //     return this.calcArea();
+  //   }
+
+  //   calcArea() {
+  //     return this.height * this.width;
+  //   }
+  // }
+  // return new Rectangle(width, height);
 }
 
 
